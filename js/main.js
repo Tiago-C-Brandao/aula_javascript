@@ -1,7 +1,61 @@
+function clicked() {
+    document.getElementById("thanks").innerHTML = "<b>Thank you for click</b>";
+    //console.log(document.getElementById("thanks"));
+    //alert("Thank you for click");
+}
+
+function redirect() {
+    window.open ("https://digitalinnovation.one/") // Abre uma segunda janela
+    //window.location.href = "https://digitalinnovation.one/"; // Abre na própria janela
+}
+
+function exchange(element) {
+    //document.getElementById("mousemove").innerHTML = "Thanks for pass the mouse";
+    element.innerHTML = "Thanks for pass the mouse";
+    //alert("Exchange text")
+}
+
+function back(element) {
+    //document.getElementById("mousemove").innerHTML = "Mouse over here";
+    element.innerHTML = "Mouse over here";
+}
+
+function load() {
+    alert("Page loaded")
+}
+
+function functionChange(element) {
+    console.log(element.value)    
+}
+
+/*
+function soma(n1, n2) {
+    return n1 + n2;
+}
+*/
+/*
+var validate = 0;
+function validateAge(age) {
+    if(age >= 18) {
+        validate = true 
+    } else {
+        validate = false 
+    }
+    return validate;
+}
+
+var age = prompt("Qual a sua idade?");
+validateAge(age);
+console.log(validate);
+*/
+//alert(soma(5, 10));
+
+/*
 var d = new Date();
 alert(d.getDay());
 alert(d.getHours());
 alert(d.getMinutes());
+*/
 
 /*
 var count;
